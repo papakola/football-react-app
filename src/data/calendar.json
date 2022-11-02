@@ -1,0 +1,154 @@
+{
+	"games": [
+		{
+			"id": 0,
+			"date": "08.11.2022",
+			"time": "12:20",
+			"teams": [
+				{
+					"id": 0,
+					"name": "ФК 'КИРОВСК-2014'",
+					"city": "Кировск",
+					"logo_url": "/logo/kirovsk.jpg",
+					"goal": 1,
+					"group": "A"
+				},
+				{
+					"id": 1,
+					"name": "ГОРНЯК",
+					"city": "Ковдор",
+					"logo_url": "/logo/kovdor.jpg",
+					"goal": 3,
+					"group": "A"
+				}
+			]
+		},
+
+		{
+			"id": 1,
+			"date": "08.11.2022",
+			"time": "13:40",
+
+			"teams": [
+				{
+					"id": 1,
+					"name": "ГОРНЯК",
+					"city": "Ковдор",
+					"logo_url": "/logo/kovdor.jpg",
+					"goal": -1,
+					"group": "A"
+				},
+
+				{
+					"id": 2,
+					"name": "ЛИДЕР-2014",
+					"city": "Апатиты",
+					"logo_url": "/logo/lider.jpg",
+					"goal": -1,
+					"group": "A"
+				}
+			]
+		},
+
+		{
+			"id": 2,
+			"date": "08.11.2022",
+			"time": "15:00",
+
+			"teams": [
+				{
+					"id": 2,
+					"name": "ЛИДЕР-2014",
+					"city": "Апатиты",
+					"logo_url": "/logo/lider.jpg",
+					"goal": -1,
+					"group": "A"
+				},
+				{
+					"id": 0,
+					"name": "ФК 'КИРОВСК-2014'",
+					"city": "Кировск",
+					"logo_url": "/logo/kirovsk.jpg",
+					"goal": -1,
+					"group": "A"
+				}
+			]
+		},
+
+		{
+			"id": 3,
+			"date": "08.11.2022",
+			"time": "15:40",
+
+			"teams": [
+				{
+					"id": 3,
+					"name": "ОЛИМП-2014",
+					"city": "Апатиты",
+					"logo_url": "/logo/olimp.jpg",
+					"goal": -1,
+					"group": "Б"
+				},
+				{
+					"id": 4,
+					"name": "МФК 'БАРЕНЦ'",
+					"city": "Мурманск",
+					"logo_url": "/logo/barenc.jpg",
+					"goal": -1,
+					"group": "Б"
+				}
+			]
+		},
+
+		{
+			"id": 4,
+			"date": "08.11.2022",
+			"time": "17:00",
+
+			"teams": [
+				{
+					"id": 3,
+					"name": "ОЛИМП-2014",
+					"city": "Апатиты",
+					"logo_url": "/logo/olimp.jpg",
+					"goal": -1,
+					"group": "Б"
+				},
+				{
+					"id": 5,
+					"name": "ЛИДЕР-2015",
+					"city": "Апатиты",
+					"logo_url": "/logo/lider.jpg",
+					"goal": -1,
+					"group": "Б"
+				}
+			]
+		},
+
+		{
+			"id": 5,
+			"date": "08.11.2022",
+			"time": "18:20",
+
+			"teams": [
+				{
+					"id": 5,
+					"name": "ЛИДЕР-2015",
+					"city": "Апатиты",
+					"logo_url": "/logo/lider.jpg",
+					"goal": -1,
+					"group": "Б"
+				},
+
+				{
+					"id": 4,
+					"name": "МФК 'БАРЕНЦ'",
+					"city": "Мурманск",
+					"logo_url": "/logo/barenc.jpg",
+					"goal": -1,
+					"group": "Б"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .app {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .header{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size:large;
+    padding: 10px;
+    background-color: bisque;
+  }
+  .game
+  {
+    display: flex;
+  }
+
+  .game_date{
+    width: 100%;
+
+  }
