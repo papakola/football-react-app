@@ -10,6 +10,7 @@ import { createTableByGroup } from '../utils/createTableByGroup.js'
 export const CalendarPage = () => {
 
 	const group_color = ["#AAA","#E6399B"]
+	const table = []
 
 
 	const dispatch = useDispatch() // подключаем диспатч
@@ -40,9 +41,21 @@ export const CalendarPage = () => {
 			//console.log( i + ": " + item.teams[0].group + " (массив:" + arr + ")" );
 			if (item.teams[0].group in games_by_group === false) { games_by_group[item.teams[0].group] = []}
 			games_by_group[item.teams[0].group].push(item)
+
 		  });
 
-		  createTableByGroup(games_by_group[1])
+		  for (let key in games_by_group) {
+//			games_by_group.forEach(function(item, idx, arr) {
+			//console.log( idx + ": " + item + " (массив:" + arr + ")" );
+			table.push(createTableByGroup(games_by_group[key]))
+		  };
+
+
+		  console.log('table_0',table[0])
+		  console.log('table_1',table[1])
+
+		  
+		  //table.push(createTableByGroup(games_by_group[2]))
 
 
 

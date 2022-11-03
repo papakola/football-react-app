@@ -1,6 +1,7 @@
-const table = {}
-
 export const createTableByGroup = (games) => {
+    
+    const table = {}
+
 	games.map((game, idx) => {
 
         let add_score_0 = 0
@@ -80,7 +81,7 @@ export const createTableByGroup = (games) => {
         return b[1] - a[1] ;
     });
 
-    console.log(sortable)
+    //console.log(sortable)
 
     const new_table = []
 
@@ -89,7 +90,5 @@ export const createTableByGroup = (games) => {
         new_table.push(table[item[0]])
       });
 
-
-
-console.log(new_table)
+    return new_table
 }
