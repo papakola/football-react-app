@@ -11,7 +11,7 @@
 					"city": "Кировск",
 					"logo_url": "/logo/kirovsk.jpg",
 					"goal": 1,
-					"group": "A"
+					"group": 1
 				},
 				{
 					"id": 1,
@@ -19,7 +19,7 @@
 					"city": "Ковдор",
 					"logo_url": "/logo/kovdor.jpg",
 					"goal": 3,
-					"group": "A"
+					"group": 1
 				}
 			]
 		},
@@ -35,8 +35,8 @@
 					"name": "ГОРНЯК",
 					"city": "Ковдор",
 					"logo_url": "/logo/kovdor.jpg",
-					"goal": -1,
-					"group": "A"
+					"goal": 1,
+					"group": 1
 				},
 
 				{
@@ -44,8 +44,8 @@
 					"name": "ЛИДЕР-2014",
 					"city": "Апатиты",
 					"logo_url": "/logo/lider.jpg",
-					"goal": -1,
-					"group": "A"
+					"goal": 0,
+					"group": 1
 				}
 			]
 		},
@@ -61,16 +61,16 @@
 					"name": "ЛИДЕР-2014",
 					"city": "Апатиты",
 					"logo_url": "/logo/lider.jpg",
-					"goal": -1,
-					"group": "A"
+					"goal": 1,
+					"group": 1
 				},
 				{
 					"id": 0,
 					"name": "ФК 'КИРОВСК-2014'",
 					"city": "Кировск",
 					"logo_url": "/logo/kirovsk.jpg",
-					"goal": -1,
-					"group": "A"
+					"goal": 1,
+					"group": 1
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 					"city": "Апатиты",
 					"logo_url": "/logo/olimp.jpg",
 					"goal": -1,
-					"group": "Б"
+					"group": 2
 				},
 				{
 					"id": 4,
@@ -95,7 +95,7 @@
 					"city": "Мурманск",
 					"logo_url": "/logo/barenc.jpg",
 					"goal": -1,
-					"group": "Б"
+					"group": 2
 				}
 			]
 		},
@@ -112,7 +112,7 @@
 					"city": "Апатиты",
 					"logo_url": "/logo/olimp.jpg",
 					"goal": -1,
-					"group": "Б"
+					"group": 2
 				},
 				{
 					"id": 5,
@@ -120,7 +120,7 @@
 					"city": "Апатиты",
 					"logo_url": "/logo/lider.jpg",
 					"goal": -1,
-					"group": "Б"
+					"group": 2
 				}
 			]
 		},
@@ -137,7 +137,7 @@
 					"city": "Апатиты",
 					"logo_url": "/logo/lider.jpg",
 					"goal": -1,
-					"group": "Б"
+					"group": 2
 				},
 
 				{
@@ -146,7 +146,7 @@
 					"city": "Мурманск",
 					"logo_url": "/logo/barenc.jpg",
 					"goal": -1,
-					"group": "Б"
+					"group": 2
 				}
 			]
 		}

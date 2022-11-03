@@ -17,12 +17,94 @@
     padding: 10px;
     background-color: bisque;
   }
+
+  
+  .group_title{
+    margin-top: 10px;
+    padding: 5px;
+    font-size: x-large;
+    text-align: center;
+  }
+
   .game
   {
     display: flex;
+    padding: 4px;
+  }
+
+  .game:nth-child(odd){
+    background-color:#9CFDDB;
+  }
+  .game:nth-child(even){
+    background-color:#5ef5c0;
   }
 
   .game_date{
-    width: 100%;
+    width:max-content;
+    text-align: center;
+    padding: 5px;
+    font-size: smaller;
+    font-weight: 700;
+    width: 12%;
+    
+  }
+
+  .game_data{
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team{
+    display: flex;
+    align-items: center;
+    width: 45%;
+  }
+
+  .team_title{
+        overflow: hidden;
+        margin: 0 10px;
+        font-size: small;
+        font-weight: 100;
+        
 
   }
+  
+  .first{
+    justify-content: flex-end;
+  }
+
+  .second{
+    justify-content: flex-start;
+  }
+
+  .right{
+    text-align: right;
+  }
+  .left{
+    text-align: left;
+  }
+  
+
+  
+  .img_logo{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+  }
+
+  .img_logo::before{
+    text-align: right;
+  }
+
+  .result{
+    width: 10%;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+
+
+
+
