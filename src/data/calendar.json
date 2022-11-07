@@ -10,7 +10,7 @@
 					"name": "ФК 'КИРОВСК-2014'",
 					"city": "Кировск",
 					"logo_url": "/logo/kirovsk.jpg",
-					"goal": 1,
+					"goal": -1,
 					"group": 1
 				},
 				{
@@ -18,7 +18,7 @@
 					"name": "ГОРНЯК",
 					"city": "Ковдор",
 					"logo_url": "/logo/kovdor.jpg",
-					"goal": 3,
+					"goal": -1,
 					"group": 1
 				}
 			]
@@ -35,7 +35,7 @@
 					"name": "ГОРНЯК",
 					"city": "Ковдор",
 					"logo_url": "/logo/kovdor.jpg",
-					"goal": 1,
+					"goal": -1,
 					"group": 1
 				},
 
@@ -44,7 +44,7 @@
 					"name": "ЛИДЕР-2014",
 					"city": "Апатиты",
 					"logo_url": "/logo/lider.jpg",
-					"goal": 0,
+					"goal": -1,
 					"group": 1
 				}
 			]
@@ -61,7 +61,7 @@
 					"name": "ЛИДЕР-2014",
 					"city": "Апатиты",
 					"logo_url": "/logo/lider.jpg",
-					"goal": 1,
+					"goal": -1,
 					"group": 1
 				},
 				{
@@ -69,7 +69,7 @@
 					"name": "ФК 'КИРОВСК-2014'",
 					"city": "Кировск",
 					"logo_url": "/logo/kirovsk.jpg",
-					"goal": 1,
+					"goal": -1,
 					"group": 1
 				}
 			]

@@ -18,7 +18,13 @@
     background-color: bisque;
   }
 
-  
+  .app_title{
+    margin-top: 20px;
+    font-size: x-large;
+    text-align:center;
+    font-weight: 700;
+  }
+
   .group_title{
     margin-top: 10px;
     padding: 5px;
@@ -104,6 +110,39 @@
     font-weight: 700;
   }
   
+
+
+  .resp-tab {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+  }
+  .resp-tab th,
+  .resp-tab td {
+    
+    font-size: 12px;
+    border: none;
+    font-family: Verdana, sans-serif;
+    border: 1px solid #337AB7;
+    vertical-align: top;
+    text-align: center;
+
+  }
+  .resp-tab th {
+    color: #FFF;
+    background: #337AB7;
+    
+    border: 1px solid #1a4a73;
+    text-transform: uppercase;
+
+    cursor: pointer;
+  }
+  .resp-tab tr.negative {
+    background: #ffa8a8;
+  }
 
 
 

@@ -11,11 +11,11 @@ export const GameComponent = ({ game }) => {
 			<div className="game_data">
 
 				<div className="team first">
-				<div className="team_title right">{game.teams[0].name} ({game.teams[0].city})</div>
+				<div className="team_title right">{game.teams[0].name} ({game.teams[0].city == "" ? "город" : game.teams[0].city})</div>
 					<div className="team_logo">
 						<img
 							className="img_logo"
-							src={'images' + game.teams[0].logo_url}
+							src={game.teams[0].logo_url == "" ? "images/logo/no_logo.png" : 'images' + game.teams[0].logo_url}
 							alt=""
 						/>
 					</div>
@@ -31,12 +31,12 @@ export const GameComponent = ({ game }) => {
 						<div>
 						<img
 							className="img_logo"
-							src={'images' + game.teams[1].logo_url}
+							src={game.teams[0].logo_url == "" ? "images/logo/no_logo.png" : 'images' + game.teams[0].logo_url}
 							alt=""
 						/>
 						</div>
 					</div>
-					<div className="team_title left">{game.teams[1].name} ({game.teams[1].city})</div>
+					<div className="team_title left">{game.teams[1].name} ({game.teams[1].city == "" ? "город" : game.teams[1].city})</div>
 				</div>
 			</div>
 		</div>
