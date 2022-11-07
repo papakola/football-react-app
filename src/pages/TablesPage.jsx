@@ -8,7 +8,6 @@ export const TablesPage = () => {
 
 	const { table } = useSelector((state) => state.calendar) // получаем игры из стейта
 
-	console.log(table)
 	if (!table) {
 		return <div className="">Таблиц нет.</div>
 	}
@@ -20,9 +19,9 @@ export const TablesPage = () => {
 					<div
 						className="group_title"
 						style={{ backgroundColor: group_color[idx] }}
-						key={idx}
+						
 					>
-						группа: {idx == 0 ? 'А' : 'Б'}
+						группа: {idx === 0 ? 'А' : 'Б'}
 					</div>
 					<table className="resp-tab">
 						<thead>
@@ -41,7 +40,7 @@ export const TablesPage = () => {
 						</thead>
 						<tbody>
 							{k.map((team, idx) => (
-								<TeamComponent idx={idx} team={team} />
+								<TeamComponent key={idx} idx={idx} team={team} />
 							))}
 						</tbody>
 					</table>

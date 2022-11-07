@@ -4,7 +4,7 @@ export const TeamComponent = ({idx, team}) => {
 
             <tr>
                 
-                <td>{idx}</td>
+                <td>{idx+1}</td>
                 <td>{team.name}</td>
                 <td>{team.city}</td>
                 <td>{team.games}</td>

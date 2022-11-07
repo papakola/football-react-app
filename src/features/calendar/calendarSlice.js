@@ -38,8 +38,7 @@ export const calendarSlice = createSlice({
         //Запрос выполнен, получен ответ в action.payload
         [getAllGames.fulfilled]:(state, action)=>{
             state.loading = false
-            console.log(action.payload)
-
+            
             action.payload.games.forEach((item, i, arr) => {
                 
                      if (item.teams[0].group in state.games_by_group === false) { state.games_by_group[item.teams[0].group] = []}

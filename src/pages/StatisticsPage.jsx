@@ -8,23 +8,38 @@ import { getStatistics } from '../features/statistics/statisticsSlice.js'
 
 export const StatisticsPage = () => {
 
-	const group_color = ["#AAA","#E6399B"]
-	
 	const dispatch = useDispatch() // подключаем диспатч
-	const  players  = useSelector((state) => state.players) // получаем игры из стейта
+	const  {players}  = useSelector((state) => state.statistics) // получаем игры из стейта
 
 	useEffect(() => {
 		dispatch(getStatistics()) // при загрузке компонента диспатчим экшин получения всех игр
 	}, [dispatch])
 
-	if (players.lenght < 2) {
-		return <div className="">Игр нет.</div>
+	
+	if (players.length < 2) {
+		return <div className="">Нет данных</div>
 	}
-		//  console.log('table_0',table[0])
-		//  console.log('table_1',table[1])
 	return (
-		<div>
-
-		</div>
+<div>
+	<table className="resp-tab">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Игрок</th>
+								<th>Голов</th>
+							</tr>
+						</thead>
+						<tbody>
+						{players.map((player, idx) => (
+								<tr key={idx}>
+								<td>{idx+1}</td>
+								<td>{player.name}</td>
+								<td>{player.goals}</td>
+								</tr>
+							))}							
+						</tbody>
+					</table>
+				</div>
+			
 	)
 }

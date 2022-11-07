@@ -1,5 +1,4 @@
 import { HeaderComponent } from "./components/HeaderComponent";
-import SuperfinalSlice from "./features/superfinal/superfinalSlice";
 import { CalendarPage } from "./pages/CalendarPage";
 import { StatisticsPage } from "./pages/StatisticsPage";
 import { SuperfinalPage } from "./pages/SuperfinalPage";

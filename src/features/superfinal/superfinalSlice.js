@@ -15,7 +15,6 @@ export const getSuperfinalGames = createAsyncThunk('superfinal/getSuperfinalGame
     async () => {
         try {
             const games_superfinal = await getData()
-            
             return games_superfinal;
         } catch (error) {
             console.log(error.message)
