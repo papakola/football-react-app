@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/football-react-app/static/css/main.d6b66326.css",
-    "main.js": "/football-react-app/static/js/main.7ee4369f.js",
+    "main.js": "/football-react-app/static/js/main.1b074654.js",
     "static/js/656.b34d3aab.chunk.js": "/football-react-app/static/js/656.b34d3aab.chunk.js",
     "static/js/750.82583f8f.chunk.js": "/football-react-app/static/js/750.82583f8f.chunk.js",
-    "static/js/712.1c3e86cd.chunk.js": "/football-react-app/static/js/712.1c3e86cd.chunk.js",
+    "static/js/712.8915a22e.chunk.js": "/football-react-app/static/js/712.8915a22e.chunk.js",
     "index.html": "/football-react-app/index.html",
     "main.d6b66326.css.map": "/football-react-app/static/css/main.d6b66326.css.map",
-    "main.7ee4369f.js.map": "/football-react-app/static/js/main.7ee4369f.js.map"
+    "main.1b074654.js.map": "/football-react-app/static/js/main.1b074654.js.map"
   },
   "entrypoints": [
     "static/css/main.d6b66326.css",
-    "static/js/main.7ee4369f.js"
+    "static/js/main.1b074654.js"
   ]
 }
