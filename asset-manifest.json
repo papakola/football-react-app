@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/football-react-app/static/css/main.d6b66326.css",
-    "main.js": "/football-react-app/static/js/main.a30a61ae.js",
-    "static/js/656.fd19c2af.chunk.js": "/football-react-app/static/js/656.fd19c2af.chunk.js",
+    "main.js": "/football-react-app/static/js/main.7ee4369f.js",
+    "static/js/656.b34d3aab.chunk.js": "/football-react-app/static/js/656.b34d3aab.chunk.js",
     "static/js/750.82583f8f.chunk.js": "/football-react-app/static/js/750.82583f8f.chunk.js",
-    "static/js/712.5a258211.chunk.js": "/football-react-app/static/js/712.5a258211.chunk.js",
+    "static/js/712.1c3e86cd.chunk.js": "/football-react-app/static/js/712.1c3e86cd.chunk.js",
     "index.html": "/football-react-app/index.html",
     "main.d6b66326.css.map": "/football-react-app/static/css/main.d6b66326.css.map",
-    "main.a30a61ae.js.map": "/football-react-app/static/js/main.a30a61ae.js.map"
+    "main.7ee4369f.js.map": "/football-react-app/static/js/main.7ee4369f.js.map"
   },
   "entrypoints": [
     "static/css/main.d6b66326.css",
-    "static/js/main.a30a61ae.js"
+    "static/js/main.7ee4369f.js"
   ]
 }
